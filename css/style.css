@@ -25,7 +25,6 @@ main{
 
 section{
     margin-top: 35px;
-    background-color: aqua;
 }
 
 section.description{
@@ -39,15 +38,12 @@ section.title{
 div{
     height: 95px;
     width: 32%;
-    background-color:blue ;
+    background-color:#0f0e17;
     float: left;
     border: white solid 1px;
 }
 
-div:nth-child(2){
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 
 div:nth-child(1){
     margin-left: 10px;
@@ -56,4 +52,8 @@ div:nth-child(1){
 img{
     height: 100%;
     float: left;
+}
+
+section.cards{
+    margin-left: 2%;
 }
