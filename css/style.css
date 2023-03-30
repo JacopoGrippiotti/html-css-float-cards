@@ -24,9 +24,15 @@ main{
 }
 
 section{
-    margin-top: 20px;
+    margin-top: 35px;
+    height: 100px;
+    background-color: aqua;
 }
 
 section.description{
     margin-top: 40px;
+}
+
+section.title{
+    height: 60px ;
 }
