@@ -43,17 +43,11 @@ div{
     border: white solid 1px;
 }
 
-
-
-div:nth-child(1){
-    margin-left: 10px;
-}
-
 img{
     height: 100%;
     float: left;
 }
 
-section.cards{
+div.clearfix~div{
     margin-left: 2%;
 }
