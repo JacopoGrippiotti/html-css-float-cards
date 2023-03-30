@@ -69,3 +69,8 @@ div.name{
     color: white;
     text-align: justify;
 }
+
+span{
+    color: #14a5e1;
+    padding-top: 10px;
+}
