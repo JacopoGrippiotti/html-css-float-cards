@@ -25,7 +25,6 @@ main{
 
 section{
     margin-top: 35px;
-    
     background-color: aqua;
 }
 
@@ -38,7 +37,7 @@ section.title{
 }
 
 div{
-    height: 70px;
+    height: 95px;
     width: 32%;
     background-color:blue ;
     float: left;
@@ -52,4 +51,9 @@ div:nth-child(2){
 
 div:nth-child(1){
     margin-left: 10px;
+}
+
+img{
+    height: 100%;
+    float: left;
 }
