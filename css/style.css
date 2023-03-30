@@ -21,6 +21,7 @@ main{
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    hyphens: auto;
 }
 
 section{
@@ -40,7 +41,6 @@ div{
     width: 32%;
     background-color:#0f0e17;
     float: left;
-    border: white solid 1px;
 }
 
 img{
@@ -48,6 +48,19 @@ img{
     float: left;
 }
 
-div.clearfix~div{
+div.cards~div{
     margin-left: 2%;
+}
+
+h2{
+    color: white;
+    text-align: justify;
+}
+
+div.photo{
+    width: 30%;
+}
+
+div.name{
+    width: 68%;
 }
